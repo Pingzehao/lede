@@ -170,14 +170,12 @@ jobs:
           CONFIG_PACKAGE_luci-app-filetransfer=y
           CONFIG_PACKAGE_luci-app-firewall=y
           CONFIG_PACKAGE_luci-app-flowoffload=y
-          CONFIG_PACKAGE_luci-app-frpc=y
           CONFIG_PACKAGE_luci-app-fwknopd=y
           CONFIG_PACKAGE_luci-app-guest-wifi=y
           CONFIG_PACKAGE_luci-app-hd-idle=y
           CONFIG_PACKAGE_luci-app-hnet=y
           CONFIG_PACKAGE_luci-app-lxc=y
           CONFIG_PACKAGE_luci-app-meshwizard=y
-          CONFIG_PACKAGE_luci-app-minidlna=y
           CONFIG_PACKAGE_luci-app-mjpg-streamer=y
           CONFIG_PACKAGE_luci-app-mwan=y
           CONFIG_PACKAGE_luci-app-mwan3=y
@@ -226,9 +224,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-virtualbypass=y
           CONFIG_PACKAGE_luci-app-vsftpd=y
           CONFIG_PACKAGE_luci-app-watchcat=y
-          CONFIG_PACKAGE_luci-app-webadmin=y
           CONFIG_PACKAGE_luci-app-wifischedule=y
-          CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-app-wireless-regdb=y
           CONFIG_PACKAGE_luci-app-wol=y
           CONFIG_PACKAGE_luci-app-zerotier=y
