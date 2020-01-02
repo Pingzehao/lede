@@ -50,7 +50,7 @@ jobs:
           # ln -s /mnt/openwrt/staging_dir ./staging_dir
           df -h
 
-      - name: 自定义插件主题。
+      - name: update theme
         run: |
           cd package
           mkdir openwrt-packages
