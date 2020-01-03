@@ -50,6 +50,7 @@ jobs:
           # ln -s /mnt/openwrt/feeds ./feeds
           # ln -s /mnt/openwrt/staging_dir ./staging_dir
           df -h
+
       - name: Update Theme
         run: |
           cd package
@@ -167,7 +168,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-bmx7=y
           CONFIG_PACKAGE_luci-app-caldav=y
           CONFIG_PACKAGE_luci-app-cjdns=y
-          CONFIG_PACKAGE_luci-app-clamav=y
           CONFIG_PACKAGE_luci-app-commands=y
           CONFIG_PACKAGE_luci-app-cshark=y
           CONFIG_PACKAGE_luci-app-ddns=y
