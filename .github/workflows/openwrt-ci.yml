@@ -50,7 +50,6 @@ jobs:
           # ln -s /mnt/openwrt/feeds ./feeds
           # ln -s /mnt/openwrt/staging_dir ./staging_dir
           df -h
-
       - name: Update Theme
         run: |
           cd package
